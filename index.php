@@ -1,9 +1,9 @@
 <?php
 
 $serverName = env("DB_HOST", "localhost");
-$databaseName = env("DB_DATABASE", "homestead");
-$username = env("DB_USERNAME", "homestead");
-$password = env("DB_PASSWORD", "secret");
+$databaseName = env("DB_DATABASE", "6ptEioDydkc549SB");
+$username = env("DB_USERNAME", "uMVRXLswoeZpJ7k4");
+$password = env("DB_PASSWORD", "pN872JWvp0uXlVTLx");
 try {
     $conn = new PDO("mysql:host=$serverName;dbname=$databaseName", $username, $password);
     // set the PDO error mode to exception
