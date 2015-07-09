@@ -1,9 +1,5 @@
 <?php
-/**
- * User: yeting
- * Date: 15/7/9
- * Time: 下午4:10
- */
+
 $serverName = env("DB_HOST", "localhost");
 $databaseName = env("DB_DATABASE", "homestead");
 $username = env("DB_USERNAME", "homestead");
